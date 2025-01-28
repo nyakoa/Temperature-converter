@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 50px auto;
+  height: 60vh;
+  width: 520px;
+  background-color: burlywood;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.label {
+  margin-bottom: 20px;
+}
+button {
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  background-color: ghostwhite;
+  border: 1px black;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: gainsboro;
+}
