@@ -6,6 +6,7 @@ function calculate() {
 
   if (isNaN(temperature)) {
     result.textContent = "Please enter a valid temperature!";
+    return
   }
   let convertedTemp;
   if (from === "celsius" && to === "Farenheit") {
